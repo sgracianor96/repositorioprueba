@@ -21,6 +21,7 @@ public class TestMysqlJDBC {
                 System.out.print("nombre: " + resultado.getString("nombre"));
                 System.out.print("Apellido: " + resultado.getString("apellido"));
                 System.out.print("Email:" + resultado.getString("email"));
+                System.out.print("Email:" + resultado.getString("email actualizado en repositorio"));
             }
             resultado.close();
             instruccion.close();
